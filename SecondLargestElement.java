@@ -35,7 +35,8 @@ class Solution {
             if (arr[i] > l) {
                 sl = l;
                 l = arr[i];
-            } else if (arr[i] < l && arr[i] > sl) {
+            } 
+            else if (arr[i] < l && arr[i] > sl) {
                 sl = arr[i];
             }
         }
